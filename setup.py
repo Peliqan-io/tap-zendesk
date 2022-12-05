@@ -10,7 +10,7 @@ setup(name='tap-zendesk',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_zendesk'],
       install_requires=[
-          'singer-python==5.12.2',
+          'singer-python @ git+https://github.com/peliqan-io/singer-python@master',
           'zenpy==2.0.24',
           'backoff==1.8.0',
           'requests==2.25.1',
